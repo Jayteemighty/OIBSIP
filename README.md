@@ -15,7 +15,7 @@ Open your Terminal in VScode
    ````
    cd 'Browser-Based Chat Application'
    or
-   ````
+   ````bash
    cd 'Simple Password Generator'
 
    Depends on the web app you are trying to view.
