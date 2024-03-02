@@ -14,9 +14,7 @@ Open your Terminal in VScode
 2. Navigate to the project directory:
    ````
    cd 'Browser-Based Chat Application'
-
    or
-
    ````
    cd 'Simple Password Generator'
 
