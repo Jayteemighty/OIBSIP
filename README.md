@@ -30,5 +30,7 @@ Open your Terminal in VScode
    python manage.py runserver
 6. Access the chosen web APP by visiting `http://localhost:8000` in your web browser.
 
+## The "BMI calculator" was built using tkinter so you can just run it to get the GUI on your PC directly.
+
 
 
