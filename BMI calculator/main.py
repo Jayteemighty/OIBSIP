@@ -37,11 +37,11 @@ def BMI():
     
 
 #Icon
-image_icon = PhotoImage(file="./Images/icon.png")
+image_icon = PhotoImage(file="Images/icon.png")
 root.iconphoto(False,image_icon)
 
 #top
-top=PhotoImage(file="./Images/top.png")
+top=PhotoImage(file="Images/top.png")
 top_image=Label(root,image=top,background="#f0f1f5")
 top_image.place(x=-10,y=-10)
 
@@ -49,12 +49,12 @@ top_image.place(x=-10,y=-10)
 Label(root,width=72,height=18,bg="lightblue").pack(side=BOTTOM)
 
 #two boxes
-box=PhotoImage(file="./Images/box.png")
+box=PhotoImage(file="Images/box.png")
 Label(root,image=box).place(x=20,y=100)
 Label(root,image=box).place(x=240,y=100)
 
 #scale
-scale=PhotoImage(file="./Images/scale.png")
+scale=PhotoImage(file="Images/scale.png")
 Label(root,image=scale,bg="lightblue").place(x=20,y=310)
 
 ##############Slider1################
@@ -67,7 +67,7 @@ def slider_changed(event):
     Height.set(get_current_value())
     
     size = int(float(get_current_value()))
-    img= (Image.open("./Images/man.png"))
+    img= (Image.open("Images/man.png"))
     resized_image=img.resize((50,10+size))
     photo2=ImageTk.PhotoImage(resized_image)
     secondimage.config(image=photo2)
@@ -97,7 +97,7 @@ def slider_changed2(event):
     Weight.set(get_current_value2())
     
     size=int(float(get_current_value()))
-    img=(Image.open("./Images/man.png"))
+    img=(Image.open("Images/man.png"))
     resized_image=img.resize((50,10+size))
     photo2=ImageTk.PhotoImage(resized_image)
     secondimage.config(image=photo2)
